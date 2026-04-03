@@ -5,64 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38991c10-6420-4c7f-bd04-a1b3253b8858" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/finance-backend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/FinanceBackendApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/common/exception/AccessDeniedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/common/exception/BadRequestException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/common/exception/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/common/exception/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/common/response/ApiResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/controller/AuthController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/controller/DashboardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/controller/TransactionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/dto/request/LoginRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/dto/request/RegisterRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/dto/request/TransactionRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/dto/request/UpdateRoleRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/dto/request/UpdateStatusRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/dto/response/AuthResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/dto/response/TransactionResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/dto/response/UserResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/entity/IdempotencyRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/entity/Transaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/enums/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/enums/TransactionType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/repository/IdempotencyRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/repository/TransactionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/security/JwtAuthFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/security/JwtUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/security/RateLimitFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/security/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/service/AuthService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/service/DashboardService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/service/TransactionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/java/com/zorvyn/finance/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/test/java/com/zorvyn/finance/FinanceBackendApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/test/java/com/zorvyn/finance/controller/AuthControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/test/java/com/zorvyn/finance/controller/TransactionControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/test/java/com/zorvyn/finance/reponsitory/TransactionRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/test/java/com/zorvyn/finance/service/AuthServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/test/java/com/zorvyn/finance/service/DashboardServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-backend/src/test/java/com/zorvyn/finance/service/TransactionServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
