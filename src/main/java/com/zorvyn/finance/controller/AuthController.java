@@ -5,14 +5,14 @@ import com.zorvyn.finance.dto.request.LoginRequest;
 import com.zorvyn.finance.dto.request.RegisterRequest;
 import com.zorvyn.finance.dto.response.AuthResponse;
 import com.zorvyn.finance.service.AuthService;
-import io.swagger.v3.oas.annotations.tags.Tag;
+//import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-
-@Tag(name = "Authentication", description = "Register and Login APIs")
+//
+//@Tag(name = "Authentication", description = "Register and Login APIs")
 @RestController
 @RequestMapping("/api/auth")
 @RequiredArgsConstructor
