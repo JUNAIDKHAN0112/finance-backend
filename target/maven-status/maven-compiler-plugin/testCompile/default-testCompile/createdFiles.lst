@@ -1,0 +1,7 @@
+com\zorvyn\finance\FinanceBackendApplicationTests.class
+com\zorvyn\finance\service\AuthServiceTest.class
+com\zorvyn\finance\controller\TransactionControllerTest.class
+com\zorvyn\finance\reponsitory\TransactionRepositoryTest.class
+com\zorvyn\finance\service\TransactionServiceTest.class
+com\zorvyn\finance\service\DashboardServiceTest.class
+com\zorvyn\finance\controller\AuthControllerTest.class
