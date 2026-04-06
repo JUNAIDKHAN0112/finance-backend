@@ -11,7 +11,7 @@ spring:
   jpa:
     open-in-view: false
     hibernate:
-      ddl-auto: validate   # 🔥 production best practice
+      ddl-auto: update   # fresh DB ke liye correct
     show-sql: false
     properties:
       hibernate:
@@ -19,7 +19,7 @@ spring:
 
   sql:
     init:
-      mode: never   # 🔥 avoid accidental DB scripts run
+      mode: never
 
 jwt:
   secret: ${JWT_SECRET}
@@ -33,4 +33,6 @@ springdoc:
 
 logging:
   level:
-    root: INFO
+    root: INFOgit add .
+  git commit -m "final prod config fix"
+  git push
