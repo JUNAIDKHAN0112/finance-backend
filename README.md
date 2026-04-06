@@ -28,7 +28,7 @@ A production-grade backend system for a **Finance Dashboard** built with Java 17
 | Validation | Bean Validation (Jakarta) |
 | Documentation | Springdoc OpenAPI (Swagger UI) |
 | Build Tool | Maven |
-| Deployment | Railway (PostgreSQL + App) |
+| Deployment | Render (PostgreSQL + App) |
 | Containerization | Docker + Docker Compose |
 
 ---
