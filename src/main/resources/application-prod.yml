@@ -33,6 +33,4 @@ springdoc:
 
 logging:
   level:
-    root: INFOgit add .
-  git commit -m "final prod config fix"
-  git push
+    root: INFO
